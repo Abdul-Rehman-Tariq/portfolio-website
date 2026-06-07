@@ -71,70 +71,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Keeper App",
-    des: "A Clone of the Google Keep App using React ",
-    img: "/keeper-app.png",
-    iconLists: ["/re.svg", "/html.svg", "/css.svg","/java-script.svg"],
-  
+    title: "Planik Ai",
+    des: "An Ai based Layout generation and Bidding platform for Residential Construction Projects.",
+    img: "/PlanikAi.png",
+    iconLists: ["/re.svg", "/html.svg", "/css.svg","/java-script.svg","/next.svg"],
+    link: "https://www.planik-ai.app/",
   },
   {
     id: 2,
-    title: "Product Landing Page",
-    des: "Product landing page for a Book-Store",
-    img: "/landing-page.png",
-    iconLists: ["/node-js.svg", "/tail.svg", "/ts.svg","/re.svg"],
-    
+    title: "Ecommerce Hub",
+    des: "Ecommerce Hub is an online shopping platform that offers a wide range of products, providing a seamless and convenient shopping experience for customers.",
+    img: "/Ecommerce-Hub.png",
+    iconLists: ["/node-js.svg", "/tail.svg", "/ts.svg","/re.svg","/next.svg","/vercel.svg"],
+    link: "https://ecommerce-hub-fr2.vercel.app/",
   },
   {
     id: 3,
-    title: "Simon Game Project",
+    title: "Keeper-App",
     des: "One of my Starting projects to learn JavaScript functionality Concepts.",
-    img: "/simon-game.png",
+    img: "/Keeper-App.png",
     iconLists: ["/html.svg", "/css.svg", "/java-script.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://keeper-app.vercel.app/",
   },
   {
     id: 4,
-    title: "DrumKit project",
-    des: "A simple and basic JavaScript project to learn DOM manipulation.",
-    img: "/drum-kit.png",
+    title: "Scientific Calculator",
+    des: "A Scientific Calculator is a powerful tool that goes beyond basic arithmetic, offering advanced functions and capabilities for complex mathematical calculations.",
+    img: "/Scientific_Calculator.png",
     iconLists: ["html.svg", "/css.svg", "/java-script.svg"],
-    link: "/ui.apple.com",
+    link: "https://calculator-type-script-v7gl.vercel.app/",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
 export const companies = [
   {

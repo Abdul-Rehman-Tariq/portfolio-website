@@ -10,9 +10,9 @@ const RecentProjects = () => {
             <span className='text-violet-100'>recent projects</span>
         </h1>
         <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8  mt-10 '> 
-            {projects.map(({id,title,des,img,iconLists}) => (
+            {projects.map(({id,title,des,img,iconLists,link}) => (
                 <div key={id} className="sm:[h-41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] ">
-                    <PinContainer title={title} >
+                    <PinContainer title={link || title} href={link} >
                         <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
                             <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                                 <img src="/bg.png" alt="bg-img" />
