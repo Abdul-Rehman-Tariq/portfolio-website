@@ -89,7 +89,7 @@ export const projects = [
     id: 3,
     title: "Keeper-App",
     des: "One of my Starting projects to learn JavaScript functionality Concepts.",
-    img: "/Keeper-App.png",
+    img: "/keeper-app.png",
     iconLists: ["/html.svg", "/css.svg", "/java-script.svg"],
     link: "https://keeper-app.vercel.app/",
   },
